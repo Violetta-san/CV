@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400&family=Raleway:wght@200;400;500&display=swap');
+/* font-family: 'IBM Plex Mono', monospace; */
+/* font-family: 'Raleway', sans-serif; */
+h1, h3, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;  
+}
+a, p, span, button, input{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.wrapper{
+    background-color: #b0ab97;
+}
+.home{
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px 0px;
+
+}
+.home__navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.home__navigation-links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.home__link{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none
+
+}
+.home__navigation-social-networks{
+    display: flex;
+    width: 30%;
+    justify-content: right;
+}
+.home__social-network{
+   margin: 0px 15px;
+    width: 20px;
+    
+}
+.home__profile{
+    display: flex;
+    margin: 40px 0px;
+}
+.home__description{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__foto{
+   width: 30%; 
+   padding-top: 10px;
+    display: flex;
+}
+.home__user-picture{
+    width: 240px;
+    border-radius: 90px;
+}
+.home__text{
+    width: 70%;
+}
+.home__start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+    width: 200px;
+    height: 40px;
+    background: #c08457a1;
+    border: 1px solid #01162773;
+    box-shadow: 0px 2px 20px rgb(142 72 0 / 38%);
+    border-radius: 10px;
+}
+
+.home__footer{
+    display: flex;
+    flex-direction: column;
+}
+.home__footer-logos{
+    display: flex;
+    justify-content: space-between;
+}
+.home__footer-logo{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #0116279c;
+    padding: 0px 10px;
+    color: #011627;
+    background-color: #b0ab97;
+    opacity: 0.85;
+    border-radius: 5px;
+    text-shadow: 5px 5px 7px #1d1c17f2;
+    box-shadow: 0px 2px 20px rgb(24 23 22 / 79%);
+}
+
+.home__footer-img{
+    width: 20px;
+    margin: 5px;
+}
